@@ -73,16 +73,16 @@ print('Output classes : ', classes)                            # The number of c
 print('-'*100)
 
 ## Displaying sample train images
-img_num = list(np.random.randint(1, X_train.shape[0], 5))      # Getting 5 random numbers from total train images
-plt.figure(figsize=(10,10))                                    # Setting the figure size
+#img_num = list(np.random.randint(1, X_train.shape[0], 5))      # Getting 5 random numbers from total train images
+#plt.figure(figsize=(10,10))                                    # Setting the figure size
 
-for i,j in enumerate(img_num):                                 # Iterating over the selected 5 random images
-    plt.subplot(1, len(img_num), i+1)                          # Setting the subplot for each image
-    plt.imshow(X_train[j], cmap='gray')                        # Displaying the plot, cmap can be 'greens', 'reds', 'blues', 'rgb' (try changing the 'gray' with the ones mentioned here)
-    plt.title("Label: {}".format(y_train[j]))                  # Setting the title of the plot with the labels
-    plt.axis('off')                                            # Hiding the axis
+#for i,j in enumerate(img_num):                                 # Iterating over the selected 5 random images
+#    plt.subplot(1, len(img_num), i+1)                          # Setting the subplot for each image
+#    plt.imshow(X_train[j], cmap='gray')                        # Displaying the plot, cmap can be 'greens', 'reds', 'blues', 'rgb' (try changing the 'gray' with the ones mentioned here)
+#    plt.title("Label: {}".format(y_train[j]))                  # Setting the title of the plot with the labels
+#    plt.axis('off')                                            # Hiding the axis
     
-plt.show()
+#plt.show()
 
 ###-----------------------------------------------------------------------------------------------------------------------------------------
 
